@@ -5,7 +5,8 @@ import type { User } from '@/types/user';
 defineProps<{ user: User }>();
 
 // interface Props {
-//     user: User
+//     name: string
+//     email: string
 // }
 
 // defineProps<Props>();

@@ -5,9 +5,7 @@ import { type BreadcrumbItem } from '@/types';
 import { Head } from '@inertiajs/vue3';
 import HeadingSmall from '@/components/HeadingSmall.vue';
 import PlaceholderPattern from '../components/PlaceholderPattern.vue';
-import UserDetails from '@/components/matt_tests/UserDetails.vue';
 
-import type { User } from '@/types/User';
 
 defineProps<{ user: User }>();
 
@@ -49,8 +47,7 @@ const breadcrumbs: BreadcrumbItem[] = [
             >
                 <PlaceholderPattern />
             </div>
-            <HeadingSmall title="Matt Test"/>
-            <UserDetails :user="user"/>
+
         </div>
     </AppLayout>
 </template>
